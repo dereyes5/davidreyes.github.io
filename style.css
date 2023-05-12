@@ -1,0 +1,69 @@
+/* Establecer una fuente sans-serif y un color de fondo blanco para todo el documento */
+* {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: white;
+}
+
+/* Centrar el contenido principal y darle un ancho máximo de 800px */
+.container {
+  display: flex;
+  flex-wrap: wrap; /* agrega esta regla para permitir que los elementos se envuelvan */
+  justify-content: center; /* centra horizontalmente los elementos */
+}
+
+/* Dar un margen superior e inferior de 50px al encabezado y al pie de página */
+.header,
+.footer {
+  margin: 50px 0;
+}
+header {
+  background-color: #ccc;
+  text-align: center;
+  padding: 2rem;
+}
+nav,
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* centra horizontalmente los elementos */
+}
+main {
+    max-width: 70%; /* le da un ancho máximo del 70% */
+    margin-top: 2rem; /* agrega un margen superior */
+    padding: 0 2rem; /* agrega un relleno para separar el contenido del borde */
+  }
+nav {
+  max-width: 30%; /* le da un ancho máximo del 30% */
+  margin-top: 2rem; /* agrega un margen superior */
+}
+
+/* Dar un margen inferior de 20px al título principal y alinear el texto al centro */
+h1 {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+/* Dar un margen inferior de 10px a los subtítulos y usar un color gris oscuro */
+h2 {
+  margin-bottom: 10px;
+  color: #333333;
+}
+
+/* Dar un margen inferior de 20px a los párrafos y usar un color gris claro */
+p {
+  margin-bottom: 20px;
+  color: #666666;
+}
+
+/* Dar un margen inferior de 30px a las imágenes y centrarlas */
+nav img {
+  max-width: 50%;
+  height: auto;
+}
+video {
+  margin-bottom: 30px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 25%;
+}
