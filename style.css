@@ -1,10 +1,12 @@
 body{
-  background-image: url(background.jpeg);
+  background-image: url(OIG.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+
 }
 /* Establecer una fuente sans-serif y un color de fondo blanco para todo el documento */
 * {
   font-family: Arial, Helvetica, sans-serif;
-  background-color: white;
 }
 
 /* Centrar el contenido principal y darle un ancho máximo de 800px */
@@ -20,7 +22,6 @@ body{
   margin: 50px 0;
 }
 header {
-  background-color: #ccc;
   text-align: center;
   padding: 2rem;
 }
@@ -62,6 +63,9 @@ p {
 nav img {
   max-width: 50%;
   height: auto;
+  border: 2px solid #525252;
+  padding: 5px;
+  border-radius: 5px;
 }
 video {
   margin-bottom: 30px;
